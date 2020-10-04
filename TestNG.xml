@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TribaleScaleTestSuite">
+
+		<listeners>
+		<listener class-name="com.tribalescale.qa.utilities.WebEventListener"/>
+		</listeners>
+	
+	<test name="FactorialTest" >
+		<classes>
+ 			<class name="com.tribalescale.qa.testCases.TC_FACT_002" /> 
+		</classes>
+	</test>
+</suite> <!-- Suite --> 
